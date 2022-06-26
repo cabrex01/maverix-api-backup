@@ -259,6 +259,7 @@ def signin_for_admin():
 
     if is_signin:
         data["api_key"] = signin_data["api_key"]
+        data["role"] = signin_data["role"]
 
 
     return data

@@ -76,6 +76,7 @@ class DatabaseIntegration():
 		if details is not None:
 			data["status"] = True
 			data["api_key"] = details["api_key"]
+			data["role"] = details["role"]
 		else:
 			data["status"] = False
 
